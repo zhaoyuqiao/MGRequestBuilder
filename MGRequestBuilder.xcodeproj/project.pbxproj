@@ -14,7 +14,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		FE298449205A09780044DF41 /* MGRequestBuilder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MGRequestBuilder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE298449205A09780044DF41 /* 米缸模型生成器.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "米缸模型生成器.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE29844C205A09780044DF41 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FE29844E205A09780044DF41 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FE298450205A09780044DF41 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -45,7 +45,7 @@
 		FE29844A205A09780044DF41 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FE298449205A09780044DF41 /* MGRequestBuilder.app */,
+				FE298449205A09780044DF41 /* 米缸模型生成器.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -80,7 +80,7 @@
 			);
 			name = MGRequestBuilder;
 			productName = MGRequestBuilder;
-			productReference = FE298449205A09780044DF41 /* MGRequestBuilder.app */;
+			productReference = FE298449205A09780044DF41 /* 米缸模型生成器.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -268,8 +268,9 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = MGRequestBuilder/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				PRODUCT_BUNDLE_IDENTIFIER = com.migang.rb.MGRequestBuilder;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "米缸模型生成器";
 				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
@@ -283,8 +284,9 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = MGRequestBuilder/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				PRODUCT_BUNDLE_IDENTIFIER = com.migang.rb.MGRequestBuilder;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "米缸模型生成器";
 				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
