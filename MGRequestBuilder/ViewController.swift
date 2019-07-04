@@ -7,8 +7,6 @@
 //
 
 import Cocoa
-
-       
 class ViewController: NSViewController {
     
     var _classHString:String = ""
